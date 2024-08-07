@@ -1,0 +1,156 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.header{
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    font-size: larger;
+    color: rgb(109, 231, 33);
+    flex-wrap: wrap;
+    
+  
+}
+table, .details{
+    color: aliceblue;
+    font-size: larger;
+}
+
+.logo{
+    display:flexbox;
+    padding: 50px;
+    flex-direction: row;
+    justify-content:center;
+    font-size: 50px;
+}
+
+.menu{
+    background-color: rgb(228, 159, 12);
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 20px;
+    align-items: left;
+}
+
+.section{
+    margin: 40px 0 ;
+}
+
+body{
+    height: 100vh;
+    background-image: url('img/fundo-site.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+    
+.card-body{
+    font-size: 35px;
+    color: rgb(29, 24, 171);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card-text{
+    font-size: 20px;
+    color: rgb(8, 8, 8);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row{
+   gap: 30px;
+}
+
+.btn-comprar{
+    background-color: rgb(42, 214, 54);
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    font-family: 'Lucida Sans';
+    border: 30px;
+    padding: 10px 5%;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+   }
+
+
+
+.menu-footer{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content:space-around;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(224, 214, 69);
+   }
+
+
+.container-form {    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #000000;
+    margin: 0;
+    max: width max content 5%;
+    padding: 30px;
+    border: 1px solid #ccc;
+}
+
+.form-box {
+    background-color: #ecf5b1;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(239, 192, 5, 0.986);
+    width: 300 px;
+}
+
+.label {
+    display:block;
+    margin-bottom: 10px;
+}
+
+.texto-sobre{
+color: rgb(255, 255, 255);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+text-align: center;
+padding: 80px;
+
+}
+
+.cabec-form{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+input, textarea {
+    display: block;
+    width: 50%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #dea70f;
+    align-content: center;
+    margin-left: 30% 
+}
+      button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        margin-left: 50% 
+      }
+      button:hover {
+        background-color: #09580d;
+      }
